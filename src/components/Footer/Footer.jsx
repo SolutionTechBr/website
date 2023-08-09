@@ -55,7 +55,7 @@ const Footer = () => {
           <div className='flex items-center justify-start'><h1 className='font-extrabold text-2xl text-blue-700 mr-3'>|</h1><h1 className='text-lg font-semibold'>Contatos</h1></div>
           <p className='max-w-[16rem] pt-4 text'>Rio Claro / SP - Brasil</p>
           <p className='pt-2'>Telefone : <a style={{ textDecoration: "none" }} href="tel:(19)99937-2133" className='text-blue-700 ml-2 font-semibold'><span className='hover:text-gray-400 text-sky-500'>(19) 99937-2133</span></a></p>
-          <p className='pt-2'>E-mail : <a style={{ textDecoration: "none" }} href="mailto:gumalimpensa@gmail.com" className='text-blue-700 ml-2 font-semibold'><span className='hover:text-gray-400 text-sky-500'>gumalimpensa@gmail.com</span></a></p>
+          <p className='pt-2'>E-mail : <a style={{ textDecoration: "none" }} href="mailto:ontato@solutiontech.dev" className='text-blue-700 ml-2 font-semibold'><span className='hover:text-gray-400 text-sky-500'>contato@solutiontech.dev</span></a></p>
         </div>
 
       </div>
@@ -66,8 +66,8 @@ const Footer = () => {
           © {year} Tech Solucions.
         </p>
         <p>
-          Desenvolvido por <a style={{ textDecoration: "none" }} className="font-medium text-blue-500" href="#">
-            <span className='text-sky-500'>Gustavo Malimpensa</span>
+          Direitos reservados para <a style={{ textDecoration: "none" }} className="font-medium text-blue-500" href="#">
+            <span className='text-sky-500'>Solution Tech</span>
           </a>.
         </p>
       </div>
