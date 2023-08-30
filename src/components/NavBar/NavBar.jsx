@@ -61,13 +61,6 @@ const NavBar = () => {
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink style={{ textDecoration: "none" }} to="/events">
-                                {({ isActive, isPending }) => (
-                                    <span className={`hover:underline underline-offset-4 decoration-blue-500 ${isActive ? "text-sky-500 font-medium" : "text-white"}`}>Planos</span>
-                                )}
-                            </NavLink>
-                        </li>
-                        <li>
                             <NavLink style={{ textDecoration: "none" }} to="/projects">
                                 {({ isActive, isPending }) => (
                                     <span className={`hover:underline underline-offset-4 decoration-blue-500 ${isActive ? "text-sky-500 font-medium" : "text-white"}`}>Contato</span>
