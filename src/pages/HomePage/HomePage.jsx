@@ -7,25 +7,13 @@ import React from 'react';
 const HomePage = () => {
   document.title = 'Solucion Tech | Home';
   return (
-    <div className='pt-16 bg-black '>
-      <div className='my-[10rem] lg:gap-1 md:gap-2 gap-6 flex-col text-5xl items-center justify-center '>
-        <div className="text-grande">
-            <h1  data-aos="zoom-in" className=' bg-clip-text bg-gradient-to-r  from-purple-400 to-blue-800'>Seja Líder de </h1>
-            <h1 data-aos="zoom-in" className='text-transparent z-10 lg:text-16xl md:text-10xl text-10xl mx-80 bg-clip-text bg-gradient-to-r from-purple-400 to-blue-800'>Mercado! </h1> 
-          </div>
-          <div class='text-pequeno'>
-            <h1 data-aos="zoom-in" >
-              Transforme seu negócio com
-            </h1>
-            <h1 data-aos="zoom-in" >
-              recursos modernos e práticos.
-            </h1>  
-          </div>
-          <div data-aos="fade-up" class='imagem'>
-            <img data-aos="fade-up" src="./images/fundo2.png" />
-          </div>
+    <div>
+      <div className='relative lg:top-28 sm:top-52 z-10 px-4 py-5 flex text-center lg:gap-1 md:gap-2 gap-6 flex-col text-5xl font-extrabold'>
+        <h1 data-aos="zoom-in" className='z-10 text-transparent text-center bg-clip-text bg-gradient-to-r from-blue-300 to-sky-500'>Abra caminho para o novo!</h1>
       </div>
-
+      <div data-aos="fade-up" className='z-0'>
+        <img data-aos="fade-up" className='z-0' src="./images/tela2.jpg" />
+      </div>
       <div className='lg:mx-[4rem] md:mx-[3rem] mx-[2rem]'>
         <Sobre/>
         <Servicos/>

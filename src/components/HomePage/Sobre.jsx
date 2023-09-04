@@ -1,8 +1,7 @@
 import React from 'react'
 import Heading1 from '../Headings/Heading1'
-import { Card1, Card2, HighlightCard } from '../Cards/Card'
+import { Card1, Card2, EstasticasCard } from '../Cards/Card'
 import { BsFillPeopleFill, BsFillCalendarEventFill } from 'react-icons/bs'
-import { RiProjector2Fill } from 'react-icons/ri'
 import { AiFillProject } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
 
@@ -17,13 +16,13 @@ const Sobre = () => {
     {
       id: "1",
       title: "Otimize seus processos.",
-      description: "Temos ferramentas para otimizar o processo de venda, envio de mensagem entre outras soluções.",
+      description: "Temos ferramentas para otimizar o processo de venda, gestão de estoque entre outras.",
       image: "/images/img1234.jpg",
     },
     {
       id: "2",
       title: "Serviço personalizado",
-      description: "Diante de analise podemos desenvolcer ferramentas personalizadas para o seu negocio, o processo de crescimento não precisa ser arduo, nunca foi tão facil trabalhar.",
+      description: "Diante de análise podemos desenvolver ferramentas personalizadas para o seu negocio, o processo de crescimento não precisa ser arduo, nunca foi tão facil trabalhar.",
       image: "./images/img1234.jpg",
     }
 ]
@@ -31,14 +30,12 @@ const Sobre = () => {
 
   return (
     <div>
-      <div className='my-20'>
-        <Heading1 details={"Bem-vindo à Solucion Tech, a parceira ideal para impulsionar seu negócio! Nossa softhouse oferece soluções tecnológicas personalizadas para microempresários."} text1={"Na Solucions Tech"} text2={"Contruimos Sonhos"} />
-      </div>
+
+      <Heading1 details={"Bem-vindo à Solucion Tech, a parceira ideal para impulsionar seu negócio! Nossa softhouse oferece soluções tecnológicas personalizadas para microempresários."} text1={"Na Solucions Tech"} text2={"Contruimos Sonhos"} />
       <div className='my-32 flex flex-wrap gap-10 items-center justify-evenly'>
-        <HighlightCard icon={<BsFillPeopleFill className='text-sky-500' size={30} />} type={"Sonhos sendo realizados"} data={100} />
-        <HighlightCard icon={<BsFillCalendarEventFill className='text-sky-500' size={30} />} type={"Cidades"} data={10} />
-        <HighlightCard icon={<RiProjector2Fill className='text-sky-500' size={30} />} type={"Parceiros Chave"} data={20} />
-        <HighlightCard icon={<AiFillProject className='text-sky-500' size={30} />} type={"Sonhos concluidos"} data={10} />
+        <EstasticasCard icon={<BsFillPeopleFill className='text-sky-500' size={30} />} type={"Sonhos realizados"} data={6} />
+        <EstasticasCard icon={<BsFillCalendarEventFill className='text-sky-500' size={30} />} type={"Sonhos sendo realizados"} data={3} />
+        <EstasticasCard icon={<AiFillProject className='text-sky-500' size={30} />} type={"Cidades"} data={3} />
       </div>
 
       <div className='my-10'>

@@ -8,69 +8,53 @@ const Team = () => {
 
   const servicos = [
     {
-      name: 'Site Dedicado',
+      name: 'Criação de Sites',
       position: 'Basic',
       image: './img/logo.png',
-      about: "Sites dinamicos e estádicos!.", 
-      value: "R$120,00",
+      about: "Criamos sites com design responsivo, segurança e desempenho. Tire suas idéias do papel, ajudamos você a divulgar seu negócio para o mundo.", 
+      value: "Saiba mais ...",
       id: "0"
     },
     {
-      name: 'Site Dedicado',
+      name: 'Cátalogo de Produtos',
       position: 'Basic',
       image: './img/logo.png',
-      about: "Sites dinamicos e estádicos!.", 
-      value: "R$120,00",
+      about: ": Uma plataforma digital que organiza, apresenta e facilita a compra de produtos de uma empresa, melhorando a visibilidade e acessibilidade dos produtos aos clientes.", 
+      value: "Saiba mais ...",
       id: "1"
     },
     {
-      name: 'Site Dedicado',
+      name: 'Data Science',
       position: 'Basic',
       image: './img/logo.png',
-      about: "Sites dinamicos e estádicos!.", 
-      value: "R$120,00",
+      about: "Um campo que utiliza técnicas e algoritmos para coletar, analisar e interpretar grandes volumes de dados, fornecendo insights valiosos e tomadas de decisão informadas para empresas e organizações.", 
+      value: "Saiba mais ...",
       id: "2"
     },
     {
-      name: 'Site Dedicado',
+      name: 'E-mail Corporativo',
       position: 'Basic',
       image: './img/logo.png',
-      about: "Sites dinamicos e estádicos!.", 
-      value: "R$120,00",
+      about: "Tenha um email próprio para o seu negócio, transmita confiança para os seus clientes enviando emails com a sua marca email@suaempresa.com.br.", 
+      value: "Saiba mais ...",
       id: "3"
     },
     {
-      name: 'Site Dedicado',
+      name: 'Otimização SEO',
       position: 'Basic',
       image: './img/logo.png',
-      about: "Sites dinamicos e estádicos!.", 
-      value: "R$120,00",
+      about: "Ajudamos você a apareçer nas primeiras posições do Google ® através do serviço de otimização de pesquisa (SEO), saia na frente da concorrência.", 
+      value: "Saiba mais ...",
       id: "5"
     },
     {
-      name: 'Site Dedicado',
+      name: 'Consultoria em T.I',
       position: 'Basic',
       image: './img/logo.png',
-      about: "Sites dinamicos e estádicos!.", 
-      value: "R$120,00",
+      about: "Estamos aqui para ajudá-lo a lidar com o mundo da tecnologia que as vezes parece muito complicado. Vamos descomplicar, deixe com a gente!", 
+      value: "Saiba mais ...",
       id: "6"
-    },
-    {
-      name: 'Site Dedicado',
-      position: 'Basic',
-      image: './img/logo.png',
-      about: "Sites dinamicos e estádicos!.", 
-      value: "R$120,00",
-      id: "7"
-    },
-    {
-      name: 'Site Dedicado',
-      position: 'Basic',
-      image: './img/logo.png',
-      about: "Sites dinamicos e estádicos!.", 
-      value: "R$120,00",
-      id: "8"
-    },
+    }
     
   ]
 

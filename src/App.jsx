@@ -29,11 +29,6 @@ function App() {
             <Team />
           </Layout>
         } />
-        <Route path="/about" element={
-          <Layout>
-            <About />
-          </Layout>
-        } />
          <Route path="/about_partners" element={
           <Layout>
             <AboutPartners />

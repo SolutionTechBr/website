@@ -73,7 +73,7 @@ const EventCard = ({ data }) => {
     )
 }
 
-const HighlightCard = ({ type, data, icon }) => {
+const EstasticasCard = ({ type, data, icon }) => {
     return (
         <div data-aos="fade-up" className='rounded-2xl w-[16rem] p-5 hover:scale-[102%] z-0 hover:z-[5]  transition-all delay-[30ms] ease-in-out border border-gray-900 bg-[#0c0c0c]'>
             <div>
@@ -88,4 +88,4 @@ const HighlightCard = ({ type, data, icon }) => {
 }
 
 
-export { Card1, Card2, EventCard, HighlightCard };
+export { Card1, Card2, EventCard, EstasticasCard };

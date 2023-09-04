@@ -1,16 +1,18 @@
 import React from 'react'
 import Heading1 from '../Headings/Heading1'
 import { Link } from 'react-router-dom'
+import { FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
 
 const Servicos = () => {
 
     const Servicoss = [
         {
-            name: "Site Dedicado",
-            icon: "./images/blockchain.png"
+            name: "Criação de Sites",
+            icon: "./images/blockchain.png",
+            
         },
         {
-            name: "Cátalogo de Produto",
+            name: "Cátalogo de Produtos",
             icon: "./images/electrical.png"
         },
         {
@@ -18,15 +20,15 @@ const Servicos = () => {
             icon: "./images/web.png"
         },
         {
-            name: "Domínio Personalizado",
+            name: "E-mail Corporativo",
             icon: "./images/content.png"
         },
         {
-            name: "Número Virtual",
+            name: "Otimização SEO",
             icon: "./images/marketing.png"
         },
         {
-            name: "E muito mais ...",
+            name: "Consultoria em T.I",
             icon: "./images/social.png"
         }
     ]
