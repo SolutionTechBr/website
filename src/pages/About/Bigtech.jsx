@@ -1,4 +1,3 @@
-import "./BigTech.scss";
 import Heading from "../../components/Headings/Heading";
 
 const BigTech = () => {
