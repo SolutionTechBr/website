@@ -3,6 +3,14 @@ import './ServicoStyle.scss'
 import Heading from '../../components/Headings/Heading'
 import ServicoCard from './ServicoCard'
 import { BsCheck } from 'react-icons/bs'
+import backgroundImg12 from '../../assets/images/terra.png' 
+import backgroundImg13 from '../../assets/images/lista.png'
+import backgroundImg14 from '../../assets/images/datascience.png'
+import backgroundImg15 from '../../assets/images/e-mail.png'
+import backgroundImg16 from '../../assets/images/lupa.png'
+import backgroundImg17 from '../../assets/images/maleta.png'
+
+
 
 const Servico = () => {
   document.title = 'Solucions Tech | Serviços';
@@ -10,7 +18,7 @@ const Servico = () => {
   const servicos = [
     {
       name: 'Criação de Sites',
-      image: 'images/terra.png',
+      image: backgroundImg12,
       about: "Criamos sites com design responsivo, segurança e desempenho. Tire suas idéias do papel, ajudamos você a divulgar seu negócio para a região e para o mundo.", 
       value: "Saiba mais ...",
       icon1: "Domínio",
@@ -22,7 +30,7 @@ const Servico = () => {
     },
     {
       name: 'Cátalogo de Produtos',
-      image: 'images/lista.png',
+      image: backgroundImg13,
       about: "Uma plataforma digital que organiza, apresenta e facilita a compra de produtos de uma empresa, melhorando a visibilidade e acessibilidade dos produtos aos clientes.", 
       value: "Saiba mais ...",
       icon1: "Apresentação Visual",
@@ -34,7 +42,7 @@ const Servico = () => {
     },
     {
       name: 'Data Science',
-      image: 'images/datascience.png',
+      image: backgroundImg14,
       about: "Um campo que utiliza técnicas e algoritmos para coletar, analisar e interpretar grandes volumes de dados, fornecendo insights valiosos e tomadas de decisões.", 
       value: "Saiba mais ...",
       icon1: "Favorece o marketing",
@@ -46,7 +54,7 @@ const Servico = () => {
     },
     {
       name: 'E-mail Corporativo',
-      image: 'images/e-mail.png',
+      image: backgroundImg15,
       about: "Tenha um email próprio para o seu negócio, transmita confiança para os seus clientes enviando emails com a sua marca email@suaempresa.com.br.", 
       value: "Saiba mais ...",
       icon1: "Domínio",
@@ -58,7 +66,7 @@ const Servico = () => {
     },
     {
       name: 'Otimização SEO',
-      image: 'images/lupa.png',
+      image: backgroundImg16,
       about: "Ajudamos você a apareçer nas primeiras posições do Google ® através do serviço de otimização de pesquisa (SEO), saia na frente da concorrência.", 
       value: "Saiba mais ...",
       icon1: "Consultoria",
@@ -70,7 +78,7 @@ const Servico = () => {
     },
     {
       name: 'Consultoria em T.I',
-      image: 'images/maleta.png',
+      image: backgroundImg17,
       about: "Estamos aqui para ajudá-lo a lidar com o mundo da tecnologia que as vezes parece muito complicado. Vamos descomplicar, deixe com a gente!", 
       value: "Saiba mais ...",
       icon1: "Para Empresas",

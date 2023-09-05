@@ -1,6 +1,13 @@
 import React from 'react'
 import Heading1 from '../Headings/Heading1'
 import { Link } from 'react-router-dom'
+import backgroundImg12 from '../../assets/images/terra.png' 
+import backgroundImg13 from '../../assets/images/lista.png'
+import backgroundImg14 from '../../assets/images/datascience.png'
+import backgroundImg15 from '../../assets/images/e-mail.png'
+import backgroundImg16 from '../../assets/images/lupa.png'
+import backgroundImg17 from '../../assets/images/maleta.png'
+
 
 
 const Servicos = () => {
@@ -8,28 +15,28 @@ const Servicos = () => {
     const Servicoss = [
         {
             name: "Criação de Sites",
-            icon: "images/terra.png",
+            icon: backgroundImg12,
             
         },
         {
             name: "Cátalogo de Produtos",
-            icon: "images/lista.png"
+            icon: backgroundImg13,
         },
         {
             name: "Data Science",
-            icon: "images/datascience.png"
+            icon: backgroundImg14,
         },
         {
             name: "E-mail Corporativo",
-            icon: "images/e-mail.png"
+            icon: backgroundImg15,
         },
         {
             name: "Otimização SEO",
-            icon: "images/lupa.png"
+            icon: backgroundImg16,
         },
         {
             name: "Consultoria em T.I",
-            icon: "images/maleta.png"
+            icon: backgroundImg17,
         }
     ]
     return (

@@ -5,7 +5,6 @@ import Servicos from '../../components/HomePage/Servicos';
 import React from 'react';
 import backgroundImg from '../../assets/images/tela2.jpg'; 
 
-
 const HomePage = () => {
   document.title = 'Solucion Tech | Home';
   return (

@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom'
 import { FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
+import backgroundImg11 from '../../assets/images/logo.mini.png'; 
+
 const Footer = () => {
   const date = new Date;
   const year = date.getFullYear();
@@ -11,7 +13,7 @@ const Footer = () => {
         <div data-aos="fade-up" className='mt-10 w-[100%] md:w-[100%] lg:w-[100%] order-1 md:order-1 lg:order-1'>
 
           <Link to="/">
-            <img src="/images/logo.mini.png" alt="logo" className='h-16 mb-2 w-auto' />
+            <img src={backgroundImg11} alt="logo" className='h-16 mb-2 w-auto' />
           </Link>
 
           <p className='max-w-[15rem] py-3 text-base'>Tech Solucion é uma empresa com serviços voltados para o desenvolvimento empresarial de pequenas empresas e microempreendedores</p>

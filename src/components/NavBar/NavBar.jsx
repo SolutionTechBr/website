@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { HiMenuAlt3 } from "react-icons/hi";
 import { FiX } from "react-icons/fi";
 import ScrollStatus from "../scroll/ScrollStatus";
-
+import backgroundImg2 from '../../assets/images/logo.mini.png'; 
 
 const NavBar = () => {
     const [menu, setMenu] = useState(false);
@@ -25,7 +25,7 @@ const NavBar = () => {
             <div className="flex items-center justify-between lg:w-[80rem] md:w-[100%] px-4 md:px-3 py-5 m-auto text-lg">
                 <div className="flex items-center">
                     <Link style={{ textDecoration: "none" }} to="/" className="flex items-center">
-                     <img data-aos="fade-up" src="./images/logo.mini.png" className='h-[3rem] ' alt="electric" />
+                     <img data-aos="fade-up" src={backgroundImg2} className='h-[3rem] ' alt="electric" />
                         <h1
                             data-aos="zoom-in"
                             className="hidden md:block lg:block font-extrabold text-left text-transparent md:text-3xl text-xs bg-clip-text bg-gradient-to-r from-blue-300 to-sky-500 h-8"

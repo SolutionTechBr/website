@@ -4,6 +4,11 @@ import { Vantagens, Card2, EstasticasCard } from '../Cards/Card'
 import { BsFillPeopleFill, BsFillCalendarEventFill } from 'react-icons/bs'
 import { AiFillProject } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
+import backgroundImg3 from '../../assets/images/img1234.jpg'; 
+import backgroundImg4 from '../../assets/images/google.jpg'; 
+import backgroundImg5 from '../../assets/images/amazon.jpg'; 
+import backgroundImg6 from '../../assets/images/microsoft.png'; 
+
 
 const Sobre = () => {
   const SobreData = [
@@ -11,19 +16,19 @@ const Sobre = () => {
       id: "0",
       title: "Aumente a visibilidade",
       description: "Amplie a visibilidade do seu negócio com uma ampla gama de ferramentas e estratégias personalizadas propostas para destacar sua presença no mercado.",
-      image: "/images/img1234.jpg",
+      image: backgroundImg3,
     },
     {
       id: "1",
       title: "Otimize seus processos",
       description: "Otimize os processos do seu negócio, automatize tarefas e corte custos para impulsionar a eficiência e aumentar a lucratividade.",
-      image: "/images/img1234.jpg",
+      image: backgroundImg3,
     },
     {
       id: "2",
       title: "Aperfeiçoar suas tomadas de decisão",
       description: "Analise os dados da sua empresa para extrair insights preciosos que podem ser altamente benéficos em processos decisórios.",
-      image: "./images/img1234.jpg",
+      image: backgroundImg3,
     }
 ]
 
@@ -56,9 +61,9 @@ const Sobre = () => {
             </Link>
       </div>
       <div className='justify-center items-center my-20 flex flex-wrap gap-10  '>
-        <Card2 title="Google" company={"Busca Inteligente e Assistente Virtual"} image={"./images/google.jpg"}/>
-        <Card2 title="Amazon" company={"Inteligência Artificial e Entrega Avançada"} image={"./images/amazon.jpg"} />
-        <Card2 title="Microsoft" company={"Inovação Tecnológica e Soluções Empresariais"} image={"./images/microsoft.png"} />
+        <Card2 title="Google" company={"Busca Inteligente e Assistente Virtual"} image={backgroundImg4}/>
+        <Card2 title="Amazon" company={"Inteligência Artificial e Entrega Avançada"} image={backgroundImg5} />
+        <Card2 title="Microsoft" company={"Inovação Tecnológica e Soluções Empresariais"} image={backgroundImg6} />
       </div>
     </div>
   )
