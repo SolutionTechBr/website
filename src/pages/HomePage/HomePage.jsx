@@ -3,6 +3,8 @@ import Sobre from '../../components/HomePage/Sobre';
 import Perguntas from '../../components/HomePage/Perguntas';
 import Servicos from '../../components/HomePage/Servicos';
 import React from 'react';
+import backgroundImg from '../../assets/images/tela2.jpg'; 
+
 
 const HomePage = () => {
   document.title = 'Solucion Tech | Home';
@@ -12,7 +14,7 @@ const HomePage = () => {
         <h1 data-aos="zoom-in" className='z-10 text-transparent text-center bg-clip-text bg-gradient-to-r from-blue-300 to-sky-500'>Abra caminho para o novo!</h1>
       </div>
       <div data-aos="fade-up" className='z-0'>
-        <img data-aos="fade-up" className='z-0' src="./images/tela2.jpg" />
+        <img data-aos="fade-up" className='z-0' src={backgroundImg} />
       </div>
       <div className='lg:mx-[4rem] md:mx-[3rem] mx-[2rem]'>
         <Sobre/>
