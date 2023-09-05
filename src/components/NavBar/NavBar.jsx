@@ -28,7 +28,7 @@ const NavBar = () => {
                      <img data-aos="fade-up" src="./images/logo.mini.png" className='h-[3rem] ' alt="electric" />
                         <h1
                             data-aos="zoom-in"
-                            className="font-extrabold text-left text-transparent md:text-3xl text-xs bg-clip-text bg-gradient-to-r from-blue-300 to-sky-500 h-8"
+                            className="hidden md:block lg:block font-extrabold text-left text-transparent md:text-3xl text-xs bg-clip-text bg-gradient-to-r from-blue-300 to-sky-500 h-8"
                         >Solucions Tech
                         </h1>
                     </Link>
@@ -44,14 +44,14 @@ const NavBar = () => {
                         </li>
 
                         <li>
-                            <NavLink style={{ textDecoration: "none" }} to="/team">
+                            <NavLink style={{ textDecoration: "none" }} to="/Serviços">
                                 {({ isActive, isPending }) => (
                                     <span className={`hover:underline underline-offset-4 decoration-sky-500 ${isActive ? "text-sky-500 font-medium" : "text-white"}`}>Serviços</span>
                                 )}
                             </NavLink>
                         </li>
                         <li>
-                            <NavLink style={{ textDecoration: "none" }} to="/projects">
+                            <NavLink style={{ textDecoration: "none" }} to="/contato">
                                 {({ isActive, isPending }) => (
                                     <span className={`hover:underline underline-offset-4 decoration-blue-500 ${isActive ? "text-sky-500 font-medium" : "text-white"}`}>Contato</span>
                                 )}
@@ -93,7 +93,7 @@ const NavBar = () => {
                     
                      
                         <li>
-                            <Link style={{ textDecoration: "none" }} to="/servicos">
+                            <Link style={{ textDecoration: "none" }} to="/Serviços">
                                 <button
                                     onClick={() => {
                                         setMenu(false);

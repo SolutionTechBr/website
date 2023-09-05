@@ -4,7 +4,7 @@ const Footer = () => {
   const date = new Date;
   const year = date.getFullYear();
   return (
-    <div className="bg-[#0b0b0b] text-sm w-[100%] mt-[20rem]">
+    <div className="bg-[#0b0b0b] text-sm w-[100%] pt-8 ">
 
       <div className="mb-10 w-[90%] grid gap-2 md:gap-4 lg:gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4 m-[auto] items-start justify-items-center">
 
@@ -14,7 +14,7 @@ const Footer = () => {
             <img src="/images/logo.mini.png" alt="logo" className='h-16 mb-2 w-auto' />
           </Link>
 
-          <p className='max-w-[17rem] py-3 text-base'>Tech Solucion é uma empresa com os serviços voltados para o desenvolvimento empresarial de pequenas empresas</p>
+          <p className='max-w-[15rem] py-3 text-base'>Tech Solucion é uma empresa com serviços voltados para o desenvolvimento empresarial de pequenas empresas e microempreendedores</p>
           <div className='flex gap-3 py-2 '>
             <a style={{ textDecoration: "none" }} target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/gustavo_malimpensa/" >
               <FaInstagram className='transition ease-in delay-50 text-pink-500 visited:text-pink-500 hover:text-pink-600 hover:scale-[110%]' size={30} />

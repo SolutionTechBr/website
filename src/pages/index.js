@@ -1,7 +1,7 @@
-import Team from "./Team/Team";
+import Servico from "./Servico/Servico";
 import HomePage from "./HomePage/HomePage";
-import Projects from "./Projects/Projects";
+import Contato from "./Contato/Contato";
 import About from "./About/About";
 import Error from "./Error/404";    
 
-export { Team, HomePage, Projects, About, Error };
+export { Servico, HomePage, Contato, About, Error };
