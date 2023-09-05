@@ -1,35 +1,35 @@
 import React from 'react'
 import Heading1 from '../Headings/Heading1'
 import { Link } from 'react-router-dom'
-import { FaTwitter, FaInstagram, FaLinkedinIn } from 'react-icons/fa'
+
 
 const Servicos = () => {
 
     const Servicoss = [
         {
             name: "Criação de Sites",
-            icon: "./images/blockchain.png",
+            icon: "images/terra.png",
             
         },
         {
             name: "Cátalogo de Produtos",
-            icon: "./images/electrical.png"
+            icon: "images/lista.png"
         },
         {
             name: "Data Science",
-            icon: "./images/web.png"
+            icon: "images/datascience.png"
         },
         {
             name: "E-mail Corporativo",
-            icon: "./images/content.png"
+            icon: "images/e-mail.png"
         },
         {
             name: "Otimização SEO",
-            icon: "./images/marketing.png"
+            icon: "images/lupa.png"
         },
         {
             name: "Consultoria em T.I",
-            icon: "./images/social.png"
+            icon: "images/maleta.png"
         }
     ]
     return (
@@ -60,7 +60,7 @@ const Servicos = () => {
             </div>
 
             <div data-aos="zoom-in" className='flex items-center justify-center mt-5'>
-            <Link to='/Servicos'>
+            <Link to='/Serviços'>
                 <button className='border-sky-500 text-sky-500 border hover:bg-sky-500 px-8 py-2 rounded-full font-medium ease-in transition-all delay-[10ms] hover:text-white'>
                     Conheça todos os nossos Serviços
                 </button>

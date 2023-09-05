@@ -1,6 +1,6 @@
 import React from 'react'
 import Heading1 from '../Headings/Heading1'
-import { Card1, Card2, EstasticasCard } from '../Cards/Card'
+import { Vantagens, Card2, EstasticasCard } from '../Cards/Card'
 import { BsFillPeopleFill, BsFillCalendarEventFill } from 'react-icons/bs'
 import { AiFillProject } from 'react-icons/ai'
 import { Link } from 'react-router-dom'
@@ -9,20 +9,20 @@ const Sobre = () => {
   const SobreData = [
     {
       id: "0",
-      title: "Almente a visibilidade do seu negocio",
-      description: "Amplie a visibilidade doseu negocio com diversas ferramentas e estrategias propostas pela Solution Tech e seus parceiros. .",
+      title: "Aumente a visibilidade",
+      description: "Amplie a visibilidade do seu negócio com uma ampla gama de ferramentas e estratégias personalizadas propostas para destacar sua presença no mercado.",
       image: "/images/img1234.jpg",
     },
     {
       id: "1",
-      title: "Otimize seus processos.",
-      description: "Temos ferramentas para otimizar o processo de venda, gestão de estoque entre outras.",
+      title: "Otimize seus processos",
+      description: "Otimize os processos do seu negócio, automatize tarefas e corte custos para impulsionar a eficiência e aumentar a lucratividade.",
       image: "/images/img1234.jpg",
     },
     {
       id: "2",
-      title: "Serviço personalizado",
-      description: "Diante de análise podemos desenvolver ferramentas personalizadas para o seu negocio, o processo de crescimento não precisa ser arduo, nunca foi tão facil trabalhar.",
+      title: "Aperfeiçoar suas tomadas de decisão",
+      description: "Analise os dados da sua empresa para extrair insights preciosos que podem ser altamente benéficos em processos decisórios.",
       image: "./images/img1234.jpg",
     }
 ]
@@ -43,13 +43,13 @@ const Sobre = () => {
        </div>
       <div className='my-10 flex flex-wrap gap-10 items-center justify-evenly'>
         {SobreData.map((data) => (
-          <Card1 key={data.id} title={data.title} description={data.description} image={data.image} />
+          <Vantagens key={data.id} title={data.title} description={data.description} image={data.image} />
         ))}
       </div>
 
       <Heading1 text1={"Aprenda com as"} text2={" Grandes Empresas"} details={"Também conhecidas como 'Big Techs', são corporações de destaque no setor tecnológico, com alcance global e influência significativa em diversas áreas."} />
       <div data-aos="zoom-in" className='flex items-center justify-center mt-5'>
-            <Link to='/Servicos'>
+            <Link to='/Big-Tech'>
                 <button className='border-sky-500 text-sky-500 border hover:bg-sky-500 px-8 py-2 rounded-full font-medium ease-in transition-all delay-[10ms] hover:text-white'>
                 Conheça mais sobre as Big Techs e suas soluções 
                 </button>

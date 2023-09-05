@@ -1,14 +1,14 @@
 import React from 'react'
 import CountUp from 'react-countup';
 
-const Card1 = ({title,description,image}) => {
+const Vantagens = ({title,description,image}) => {
     return (
         <div data-aos="zoom-in" className='w-fit'>
             <div className='border-[1px]  border-gray-800 hover:border-gray-700 rounded-2xl w-[21rem] p-5 hover:scale-[102%] z-0 hover:z-10 bg-[#0a0a0a] transition-all delay-[30ms] ease-in-out'>
                 <div className='h-[10rem] rounded flex items-center justify-center overflow-hidden bg-green-500 mb-5'>
                     <img loading='lazy' className='w-auto h-[13rem] bg-cover bg-center' src={image} alt="about" />
                 </div>
-                <div>
+                <div className="text-center">
                     <h3 className='text-base font-semibold'>{title}</h3>
                     <p className='text-gray-500 text-sm font-medium leading-5 mt-1'>
                         {
@@ -88,4 +88,4 @@ const EstasticasCard = ({ type, data, icon }) => {
 }
 
 
-export { Card1, Card2, EventCard, EstasticasCard };
+export { Vantagens, Card2, EventCard, EstasticasCard };

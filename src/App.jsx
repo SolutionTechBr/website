@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Layout from './utils/Layout';
 import { Servico, HomePage,  Contato, Error } from './pages/index'
 import ScrollToTop from './hooks/useScrollToTop';
-import AboutPartners from './pages/About/About_Partners';
+import BigTech from './pages/About/Bigtech';
 
 function App() {
 
@@ -29,9 +29,9 @@ function App() {
             <Servico />
           </Layout>
         } />
-         <Route path="/about_partners" element={
+         <Route path="/Big-Tech" element={
           <Layout>
-            <AboutPartners />
+            <BigTech />
           </Layout>
         } />
         <Route path="/contato" element={

@@ -10,8 +10,8 @@ const Servico = () => {
   const servicos = [
     {
       name: 'Criação de Sites',
-      image: 'images/globo.png',
-      about: "Criamos sites com design responsivo, segurança e desempenho. Tire suas idéias do papel, ajudamos você a divulgar seu negócio para o mundo.", 
+      image: 'images/terra.png',
+      about: "Criamos sites com design responsivo, segurança e desempenho. Tire suas idéias do papel, ajudamos você a divulgar seu negócio para a região e para o mundo.", 
       value: "Saiba mais ...",
       icon1: "Domínio",
       icon2: "Hospedagem",
@@ -35,7 +35,7 @@ const Servico = () => {
     {
       name: 'Data Science',
       image: 'images/datascience.png',
-      about: "Um campo que utiliza técnicas e algoritmos para coletar, analisar e interpretar grandes volumes de dados, fornecendo insights valiosos e tomadas de decisão informadas para empresas e organizações.", 
+      about: "Um campo que utiliza técnicas e algoritmos para coletar, analisar e interpretar grandes volumes de dados, fornecendo insights valiosos e tomadas de decisões.", 
       value: "Saiba mais ...",
       icon1: "Favorece o marketing",
       icon2: "Previsão de demandas",
@@ -85,7 +85,7 @@ const Servico = () => {
 
   return (
     <div className='pt-16'>
-      <Heading heading="Serviços"></Heading>
+      <Heading  className='flex justify-center items-center' heading="O que podemos fazer por você?" description="Somos uma agência digital especializada em desenvolver soluções tecnológicas inteligentes, temos como objetivo usar nossos serviços para ajudar empresas a crescerem e atingirem seus objetivos. Venha ser nosso parceiro!"></Heading>
       <div className='my-20 mx-5 flex flex-wrap gap-10 items-center justify-center' id='Servico_main'>
         {servicos.map((servico, id ) => (
           <ServicoCard icon={<BsCheck className='text-sky-500' size={30} />} servico={servico} key={id}/>
