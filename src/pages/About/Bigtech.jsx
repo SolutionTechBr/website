@@ -1,4 +1,7 @@
 import Heading from "../../components/Headings/Heading";
+import backgroundImg15 from '../../assets/images/google.jpg'; 
+import backgroundImg16 from '../../assets/images/amazon.jpg';  
+import backgroundImg17 from '../../assets/images/microsoft.png'; 
 
 const BigTech = () => {
   document.title = "Solucion Tech | Big Techs";
@@ -53,7 +56,7 @@ const BigTech = () => {
         </div>
         <div className="m-2 basis-[40%] sm:px-5  py-2 px-2 overflow-hidden rounded-xl lg:mt-0 md:mt-0 mt-5 " d>
           <img
-            src="./images/google.jpg"
+            src={backgroundImg15}
             className="rounded-xl w-full hover:scale-105 duration-1000 shadow-xl hue-rotate-30 "
           ></img>
         </div>
@@ -62,7 +65,7 @@ const BigTech = () => {
       <div className=" m-10 lg:max-w-[80%] md:w-[85%] w-[94%] bg-gray-900 rounded-3xl p-5 py-10 mx-auto flex flex-col md:py-[80]   sm:flex-row   ">
       <div className="m-2 basis-[40%] sm:px-5  py-2 px-2 overflow-hidden rounded-xl lg:mb-0 md:mb-0 mb-10  ">
           <img
-            src="./images/amazon.jpg"
+            src={backgroundImg16}
             className="rounded-xl w-full hover:scale-105 duration-1000 shadow-xl hue-rotate-30 "
           ></img>
         </div>
@@ -103,7 +106,7 @@ const BigTech = () => {
         </div>
         <div className="m-2 basis-[40%] sm:px-5  py-2 px-2 overflow-hidden rounded-xl lg:mt-0 md:mt-0 mt-5  ">
           <img
-            src="./images/microsoft.png"
+            src={backgroundImg17}
             className="rounded-xl w-full hover:scale-105 duration-1000 shadow-xl hue-rotate-30 "
           ></img>
         </div>

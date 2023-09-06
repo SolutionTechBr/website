@@ -10,6 +10,7 @@ import backgroundImg5 from '../../assets/images/amazon.jpg';
 import backgroundImg6 from '../../assets/images/microsoft.png'; 
 
 
+
 const Sobre = () => {
   const SobreData = [
     {
@@ -44,6 +45,7 @@ const Sobre = () => {
       </div>
 
       <div className='my-10'>
+       
        <Heading1 details={"Entenda a importância de simplificar a sua jornada de microempreendedor."} text1={"Entenda as"} text2={" Vantangens"}  />
        </div>
       <div className='my-10 flex flex-wrap gap-10 items-center justify-evenly'>
