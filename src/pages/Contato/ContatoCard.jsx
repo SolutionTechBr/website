@@ -2,6 +2,12 @@ import React from "react";
 import { FaInstagram, FaLinkedinIn, FaFacebook } from 'react-icons/fa'
 
 const ContatoCard = ({ title,description }) => {
+
+    const handleClick = () => {
+        const whatsappURL = `https://api.whatsapp.com/send?phone=${+5519999372133}`;
+        window.open(whatsappURL);
+    };
+
     return (             
         
     <div data-aos="zoom-in" className='w-fit '>
@@ -36,7 +42,7 @@ const ContatoCard = ({ title,description }) => {
                 </p>
             </div>
             <div className="flex justify-center pt-8 mb-8 ">
-                <button className="border-sky-500 text-sky-500 border hover:bg-green-500 px-8 py-2 rounded-full font-medium ease-in transition-all delay-[10ms] hover:text-white">
+                <button  onClick={handleClick} className="border-sky-500 text-sky-500 border hover:bg-green-500 px-8 py-2 rounded-full font-medium ease-in transition-all delay-[10ms] hover:text-white">
                     Chamar no Whatsapp
                 </button>
             </div>

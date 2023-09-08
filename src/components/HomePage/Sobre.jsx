@@ -8,7 +8,8 @@ import backgroundImg3 from '../../assets/images/img1234.jpg';
 import backgroundImg4 from '../../assets/images/google.jpg'; 
 import backgroundImg5 from '../../assets/images/amazon.jpg'; 
 import backgroundImg6 from '../../assets/images/microsoft.png'; 
-
+import backgroundImg15 from '../../assets/images/tomadadedecisao.jpg'; 
+import backgroundImg16 from '../../assets/images/datasciencedados.jpg';
 
 
 const Sobre = () => {
@@ -23,13 +24,13 @@ const Sobre = () => {
       id: "1",
       title: "Otimize seus processos",
       description: "Otimize os processos do seu negócio, automatize tarefas e corte custos para impulsionar a eficiência e aumentar a lucratividade.",
-      image: backgroundImg3,
+      image: backgroundImg15,
     },
     {
       id: "2",
-      title: "Aperfeiçoar suas tomadas de decisão",
+      title: "Aperfeiçoe sua tomada de decisão",
       description: "Analise os dados da sua empresa para extrair insights preciosos que podem ser altamente benéficos em processos decisórios.",
-      image: backgroundImg3,
+      image: backgroundImg16,
     }
 ]
 
